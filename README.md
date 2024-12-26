@@ -18,7 +18,58 @@ Welcome to the **IMDB Movie Review Sentiment Analysis** project! This applicatio
 
 ### 📋 Prerequisites
 
-- **Python**: Ensure you have Python **3.8+** installed on your system. 🐍
+- **Python**: Ensure you have Python **3.10+** installed on your system. 🐍
+
+### 🛠️ Creating a Virtual Environment
+
+It's a good practice to create a virtual environment to manage your project's dependencies. Follow the instructions below based on your operating system:
+
+#### 💻 On Windows
+
+1. **Open Command Prompt or PowerShell**.
+
+2. **Navigate to the Project Directory**:
+
+   ```bash
+   cd path\to\your\project-directory
+   ```
+
+3. **Create a Virtual Environment:**
+
+   ```bash
+   python -m venv venv
+   ```
+
+4. **Activate the Virtual Environment:**
+
+   - Command Prompt:
+     ```bash
+     venv\Scripts\activate
+     ```
+
+#### 🐧 On Linux
+
+1. Open Terminal.
+
+2. Navigate to the Project Directory:
+
+   ```bash
+   cd path/to/your/project-directory
+   ```
+
+3. Create a Virtual Environment:
+
+   ```bash
+   python3 -m venv venv
+   ```
+
+4. Activate the Virtual Environment:
+
+   ```bash
+   source venv/bin/activate
+   ```
+
+🔔 Note: After activation, your terminal prompt will be prefixed with (venv) indicating that the virtual environment is active.
 
 ### 🏁 Steps
 
